@@ -3,31 +3,36 @@ body {
     background-image: url(../images/background.png);
     margin: 0px;
     padding: 0px;
+    font-size: 1.4em;
 }
 
 nav {
     text-align: center;
     padding: 1.2em;
+    font-size: 0.8em;
 }
 
-nav:link {
+nav a:link {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 0.04em;
     background: pink;
-    color: black;
-    padding: 2px;
-    margin: 2px;
+    color: white;
+    padding: 0.8em 1em;
+    margin: 0 0.5em;
+    border-radius: 0.4em;
 }
 
-nav:hover {
+nav a:hover {
+    background: white;
+    color: pink;
+    border-bottom: 0.3em solid pink;
+}
+
+nav a:visited {
     color: grey;
-}
-
-nav:visited {
-    color: black;
 }
 
 h1,
@@ -37,44 +42,20 @@ h3 {
 
 h1 {
     font-size: 2em;
-    margin-top: 0px;
 }
 
-h3 {
-    font-size: 1.5em;
-}
-
-p {
-    text-indent: 20px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-}
-
-.copyright {
-    margin-top: 12px;
-    margin-bottom: 12px;
+p, cite {
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 .container {
     #background-color: white;
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .photo {
     width: 800px;
-}
-
-.gallery-photo p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.gallery-photo img {
-    max-width: 800px;
-}
-
-.gallery-photo {
-    max-width: 800px;
 }
